@@ -10,13 +10,13 @@
 //Motors and Arduino interface with the L239D Dual H-Bridge Motor Driver.
 //Pin numberings based on the wiring diagram in referenced documentation.
 
-const int motor1_on_pin = 1; //Motor 1 PWM Speed Control Pin
-const int motor2_on_pin = 9; //Motor 2 PWM Speed Control Pin
+const int motor1_on_pin = 2; //Motor 1 PWM Speed Control Pin, Pin 1 on L239
+const int motor2_on_pin = 4; //Motor 2 PWM Speed Control Pin, Pin 9 on L239
 
-const int motor1_Direction_A = 2; //Motor 1 Directional Control A
-const int motor1_Dirction_B = 7; //Motor 1 Directional Control B
-const int motor2_Dirction_A = 15; //Motor 2 Directional Control A
-const int motor2_Dirction_B = 10; //Motor 2 Directional Control B
+const int motor1_Direction_A = 7; //Motor 1 Directional Control A, Pin 2 on L239
+const int motor1_Direction_B = 8; //Motor 1 Directional Control B, Pin 7 on L239
+const int motor2_Direction_A = 11; //Motor 2 Directional Control A, Pin 15 on L239
+const int motor2_Direction_B = 12; //Motor 2 Directional Control B, Pin 10 on L239
 
 /*****Setup*****/
 
